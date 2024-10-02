@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+.columna-izquierda {
+    width: 30%;
+    background-color: #F5E9F9;
+    padding: 20px;
+    text-align: center;
+}
+.columna-derecha {
+    width: 70%;
+    padding: 20px;
+}
+.perfil-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.titulo-sobreMi, .titulo-datosPersonales {
+    color: #6b2578;
+    margin-top: 20px;
+    border-bottom: 2px solid #6b2578;
+    padding-bottom: 5px;
+}
+h2 {
+    color: #6b2578;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.informacion-contacto, .habilidades, .idiomas {
+    margin-top: 20px;
+}
+.informacion-contacto ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.habilidades ul li, .idiomas ul li {
+    margin-bottom: 5px;
+}
+.perfil, .educacion, .experiencia {
+    margin-bottom: 20px;
+}
